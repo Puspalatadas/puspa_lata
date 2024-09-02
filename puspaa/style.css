@@ -1,0 +1,35 @@
+.{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0%;
+}                             
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.8;
+    color: rgb(230, 243, 243);
+    background-color: rgb(39, 3, 3);
+}
+header{
+    background-color: rgb(242, 240, 243);
+    padding-top: 1em;
+    text-align: center;
+}
+nav ul{
+    list-style:none ;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+input textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+button{
+    background-color: antiquewhite;
+    color: blue;
+    padding: 10px;
+    border: none;
+}
